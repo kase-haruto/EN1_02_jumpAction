@@ -32,7 +32,7 @@ public class ArrowDraw : MonoBehaviour {
             arrowImage.rectTransform.rotation = Quaternion.Euler(0, 0, angleRad * Mathf.Rad2Deg);
             //–îˆó‚Ì‰æ‘œ‚ğ‘å‚«‚³‚ğƒhƒ‰ƒbƒO‚µ‚½‹——£‚É‡‚í‚¹‚é
             arrowImage.rectTransform.sizeDelta = new Vector2(size, size);
-        }else {
+        } else {
             arrowImage.gameObject.SetActive(false);
         }
     }
